@@ -3,7 +3,7 @@ import random
 import sys
 
 # Make an HTTP GET request to the cat-fact API
-cat_url = "https://cat-fact.herokuapp.com/#/cat/facts"
+cat_url = "https://catfact.ninja/facts"
 r = requests.get(cat_url)
 r_obj_list = r.json()
 
